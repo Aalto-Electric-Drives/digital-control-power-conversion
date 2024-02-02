@@ -9,7 +9,7 @@ This work is licensed under a [Creative Commons Attribution-NonCommercial 4.0 In
 [cc-by-nc-image]: https://i.creativecommons.org/l/by-nc/4.0/88x31.png
 [cc-by-nc-shield]: https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg
 
-This repository contains the core material of an intensive PhD course held in Politecnico di Torino, Turin, Italy, in 2017. The course deals with model-based control in electrical energy conversion. Apparently simple generic systems are used as examples, which, however, are nontrivial to control due to either nonlinearities or discrete-time effects or both (which appear in some real-life applications). The control challenges are essentially the same as those in more complicated three-phase systems (motor drives and grid converters), but the simpler example systems allow to focus on control challenges with less mathematical complexity.
+This repository contains the core material of an intensive PhD course held in Politecnico di Torino, Turin, Italy, in 2017. The course deals with model-based control in electrical energy conversion. Apparently simple generic systems are used as examples, which, however, are nontrivial to control due to either nonlinearities or discrete-time effects or both. The control challenges are essentially the same as those in more complicated three-phase systems (motor drives and grid converters), but the simpler example systems allow to focus on control challenges with less mathematical complexity.
 
 Material is divided into six modules:
 
@@ -30,3 +30,5 @@ The key control challenges to be considered are:
 6. Automatic tuning based on the known model parameters, taking the above aspects into account
 
 The lecture slides contain some exercises. To solve them, the Simulink models included in the repository can be used as starting point. 
+
+This course is partly built on doctoral theses of Jarno Kukkola (https://urn.fi/URN:ISBN:978-952-60-7179-4) and Hafiz Asad Ali Awan (https://urn.fi/URN:ISBN:978-952-60-8765-8).
