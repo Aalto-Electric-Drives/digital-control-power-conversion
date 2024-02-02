@@ -1,0 +1,35 @@
+% Some definitions for plotting figures
+grid_color = .75*[1 1 1];
+set(groot, 'DefaultTextInterpreter', 'Latex');
+set(groot, 'DefaultLegendInterpreter', 'Latex');
+set(groot, 'defaultAxesTickLabelInterpreter','latex');
+set(0,'defaultFigureRenderer','painters');
+set(0,'defaultAxesLineWidth',1);
+set(0,'defaultLineLineWidth',1.5);
+set(0,'defaultStairLineWidth',1.5);
+set(0,'defaultAxesGridLineStyle',':');
+set(0,'defaultAxesYGrid','on');
+set(0,'defaultAxesXGrid','on');
+set(0,'defaultAxesZGrid','on');
+%set(0,'defaultAxesNextPlot','add');
+set(0,'defaultAxesFontSize',16);
+set(0,'defaultTextFontSize',16);
+set(0,'defaultAxesBox','on');
+set(0,'defaultAxesXAxisLocation','bottom');
+set(0,'defaultAxesGridAlpha', 1);
+set(0,'defaultAxesYMinorGrid', 'off');
+set(0,'defaultAxesMinorGridAlpha', 1);
+set(0,'defaultAxesGridColor', grid_color);
+set(0,'defaultAxesMinorGridColor', grid_color);
+set(0,'defaultAxesXColor', 0*[1 1 1]);
+set(0,'defaultAxesYColor', 0*[1 1 1]);
+set(0,'defaultAxesZColor', 0*[1 1 1]);
+%set(0,'defaultAxesFontName','Times');
+%set(0,'defaultTextFontName','Times');
+%set(0,'defaultAxesFontName','mwa_cmr10');
+%set(0,'defaultTextFontName','mwa_cmr10');
+
+width = 16; height = 10; 
+width_sq = 14; height_sq = 12; 
+set(0,'defaultFigureUnits','centimeters');
+set(0,'defaultFigurePosition',[5 5 width height]);
